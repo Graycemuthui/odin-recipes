@@ -25,7 +25,7 @@
             <!-- I had added a link to the image but figured if i link it to the css it will still appears -->
 
             <!-- <div class="nav-links">
-                <!--The div element shows sections of the page and are categorized here as class -->
+                <!-- The div element shows sections of the page and are categorized here as class -->
             <!-- This are the links on the site that help to direct -->
             <!-- <ul>
                 <li>
@@ -46,22 +46,33 @@
             <h1>ODIN RECIPES</h1>
             <h4>Where pastabilities are endless</h4>
         </div>
+        <!-- This is the textbox of the website -->
 
+        <div class="container">
+            <!-- This creates a container for the recipes -->
+            <div class="recipes">
+                <!-- This cretes a class for each recipe that will be used in styling on css -->
+                <a href="recipes/spaghettibolognese.html">
+                    <img src="recipes/images/spaghettibolognese.jpg" width="150" height="120" style="border: 1px; border-radius: 8px" alt="Spaghetti Bolognese" />
+                    <!-- Decided to use the inline css because this images are constant -->
+                </a>
+            </div>
 
-        <a href="recipes/spaghettibolognese.html">
-            <img src="recipes/images/spaghettibolognese.jpg" alt="Spaghetti Bolognese" />
-        </a>
-        <a href="recipes/rigatoni.html">
-            <img src="recipes/images/rigatoni.jpg" alt="Rigatoni Pasta" />
-        </a>
-        <a href="recipes/penne.html">
-            <img src="recipes/images/penne.jpg" alt="Penne Pasta" />
-        </a>
+            <div class="recipes">
+                <a href="recipes/rigatoni.html">
+                    <img src="recipes/images/rigatoni.jpg" width="150" height="120" style="border: 1px; border-radius: 8px" alt="Rigatoni Pasta" />
+                </a>
+            </div>
 
-        <!-- This displays all images in the website -->
-
+            <div class="recipes">
+                <a href="recipes/penne.html">
+                    <img src="recipes/images/penne.jpg" width="150" height="120" style="border: 1px; border-radius: 8px" alt="Penne Pasta" />
+                </a>
+                <!-- End of the recipe class -->
+            </div>
+            <!-- End of the container class -->
+        </div>
     </section>
 </body>
-
 
 </html>
