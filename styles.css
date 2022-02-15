@@ -1,85 +1,164 @@
-                                                                                                            * {
-                                                                                                                margin: 0;
-                                                                                                                font-family: 'Poppins', sans-serif;
-                                                                                                                padding: 0;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .header {
-                                                                                                                background: rgb(238, 174, 202);
-                                                                                                                background: radial-gradient(circle, rgba(238, 174, 202, 0.5) 0%, rgba(183, 189, 196, 0.1) 100%), url(recipes/images/spaghetticover.jpg);
-                                                                                                                background-position: center;
-                                                                                                                background-size: cover;
-                                                                                                                min-height: 100vh;
-                                                                                                                width: 100%;
-                                                                                                                position: relative;
-                                                                                                            }
-                                                                                                            
-                                                                                                            nav {
-                                                                                                                align-items: center;
-                                                                                                                display: flex;
-                                                                                                                justify-content: space-between;
-                                                                                                                padding: 3%, 6%;
-                                                                                                            }
-                                                                                                            
-                                                                                                            nav img {
-                                                                                                                border-radius: 40px;
-                                                                                                                display: block;
-                                                                                                                margin-left: 50%;
-                                                                                                                margin-right: 50%;
-                                                                                                                width: 80px;
-                                                                                                                top: 100%;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .nav.links {
-                                                                                                                display: flex;
-                                                                                                                flex-direction: row;
-                                                                                                                flex: 1;
-                                                                                                                text-align: right;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .nav-links ul li {
-                                                                                                                display: inline-block;
-                                                                                                                list-style-type: none;
-                                                                                                                position: relative;
-                                                                                                                padding: 30px, 20px;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .nav-links ul li a {
-                                                                                                                color: #e43a1c;
-                                                                                                                text-decoration: none;
-                                                                                                                font-weight: 500;
-                                                                                                                font-size: 20px;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .page {
-                                                                                                                width: 90vw;
-                                                                                                                max-width: var(max-width);
-                                                                                                                margin: 0 auto;
-                                                                                                                min-height: calc(100vh -());
-                                                                                                                padding-top: 2 rem;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .textbox {
-                                                                                                                color: rgb(12, 2, 5);
-                                                                                                                text-align: center;
-                                                                                                                font-size: 10px;
-                                                                                                                left: 47%;
-                                                                                                                position: absolute;
-                                                                                                                top: 13%;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .recipes-list {
-                                                                                                                display: grid;
-                                                                                                                gap: 2rem, 1rem;
-                                                                                                                padding-bottom: 3rem;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .recipes {
-                                                                                                                list-style: linear-gradient();
-                                                                                                                margin-left: 50px;
-                                                                                                                width: 50px;
-                                                                                                            }
-                                                                                                            
-                                                                                                            .bolognesesteps ol li {
-                                                                                                                list-style: none;
-                                                                                                            }
+                                                                                                                * {
+                                                                                                                    margin: 0;
+                                                                                                                    font-family: 'Poppins', sans-serif;
+                                                                                                                    padding: 0;
+                                                                                                                }
+                                                                                                                /* This is the universal selector,it styles the whole page */
+                                                                                                                
+                                                                                                                html,
+                                                                                                                body {
+                                                                                                                    margin: 0;
+                                                                                                                    padding: 0;
+                                                                                                                    overflow-x: hidden;
+                                                                                                                }
+                                                                                                                /* This removes the blank white space in the page*/
+                                                                                                                
+                                                                                                                .header {
+                                                                                                                    background: rgb(238, 174, 202);
+                                                                                                                    background: radial-gradient(circle, rgba(238, 174, 202, 0.5) 0%, rgba(183, 189, 196, 0.1) 100%), url(recipes/images/spaghetticover.jpg);
+                                                                                                                    background-position: center;
+                                                                                                                    background-size: cover;
+                                                                                                                    min-height: 100vh;
+                                                                                                                    width: 100%;
+                                                                                                                    position: absolute;
+                                                                                                                }
+                                                                                                                /* This is the section of the page where the main page is */
+                                                                                                                
+                                                                                                                nav {
+                                                                                                                    align-items: center;
+                                                                                                                    display: flex;
+                                                                                                                    justify-content: space-between;
+                                                                                                                    padding: 3%, 6%;
+                                                                                                                }
+                                                                                                                
+                                                                                                                nav img {
+                                                                                                                    border-radius: 40px;
+                                                                                                                    display: block;
+                                                                                                                    margin-left: 50%;
+                                                                                                                    margin-right: 50%;
+                                                                                                                    width: 80px;
+                                                                                                                    top: 100%;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .nav.links {
+                                                                                                                    display: flex;
+                                                                                                                    flex-direction: row;
+                                                                                                                    flex: 1;
+                                                                                                                    text-align: right;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .nav-links ul li {
+                                                                                                                    display: inline-block;
+                                                                                                                    list-style-type: none;
+                                                                                                                    position: relative;
+                                                                                                                    padding: 30px, 20px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .nav-links ul li a {
+                                                                                                                    color: #e43a1c;
+                                                                                                                    text-decoration: none;
+                                                                                                                    font-weight: 500;
+                                                                                                                    font-size: 20px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .page {
+                                                                                                                    width: 100vw;
+                                                                                                                    margin: 0 auto;
+                                                                                                                    min-height: calc(100vh -());
+                                                                                                                }
+                                                                                                                
+                                                                                                                .textbox {
+                                                                                                                    color: rgb(12, 2, 5);
+                                                                                                                    text-align: center;
+                                                                                                                    font-size: 10px;
+                                                                                                                    left: 47%;
+                                                                                                                    position: absolute;
+                                                                                                                    top: 13%;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .recipes-list {
+                                                                                                                    display: grid;
+                                                                                                                    gap: 2rem, 1rem;
+                                                                                                                    padding-bottom: 3rem;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .recipes {
+                                                                                                                    list-style: linear-gradient();
+                                                                                                                    margin-left: 50px;
+                                                                                                                    width: 50px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .spagh-img {
+                                                                                                                    margin: 0;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .bolognese-ingr {
+                                                                                                                    margin: 0;
+                                                                                                                    justify-self: start;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .bolognese-list {
+                                                                                                                    margin: 0;
+                                                                                                                    font: inherit;
+                                                                                                                    font-size: 12;
+                                                                                                                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .bolognese-steps {
+                                                                                                                    margin: 0;
+                                                                                                                    text-decoration: underline;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .bolognese-descr {
+                                                                                                                    margin: 0;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .penne-img {
+                                                                                                                    margin: 0;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .penne-ingr {
+                                                                                                                    margin: 0;
+                                                                                                                    justify-self: start;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .penne-list {
+                                                                                                                    margin: 0;
+                                                                                                                    font: inherit;
+                                                                                                                    font-size: 12;
+                                                                                                                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .penne-steps {
+                                                                                                                    margin: 0;
+                                                                                                                    text-decoration: underline;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .penne-descr {
+                                                                                                                    margin: 0;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .rigatoni-img {
+                                                                                                                    margin: 0;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .rigatoni-ingr {
+                                                                                                                    margin: 0;
+                                                                                                                    justify-self: start;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .rigatoni-list {
+                                                                                                                    margin: 0;
+                                                                                                                    font: inherit;
+                                                                                                                    font-size: 12;
+                                                                                                                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .rigatoni-steps {
+                                                                                                                    margin: 0;
+                                                                                                                    text-decoration: underline;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .rigatoni-descr {
+                                                                                                                    margin: 0;
+                                                                                                                }
