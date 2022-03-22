@@ -162,3 +162,12 @@
                                                                                                                 .rigatoni-descr {
                                                                                                                     margin: 0;
                                                                                                                 }
+                                                                                                                
+                                                                                                                .food-img {
+                                                                                                                    width: 150px;
+                                                                                                                    height: 120px;
+                                                                                                                }
+                                                                                                                
+                                                                                                                .container {
+                                                                                                                    flex-direction: column;
+                                                                                                                }
